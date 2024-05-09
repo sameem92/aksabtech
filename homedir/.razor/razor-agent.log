@@ -1,0 +1,5 @@
+Oct 17 10:29:08.414485 check[4116]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/aksabtech/.razor/razor-agent.log
+Oct 17 10:29:10.149935 check[4116]: [ 3] mail 1 is not known spam.
+Jan 24 18:01:16.464274 check[3629]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/aksabtech/.razor/razor-agent.log
+Jan 27 19:56:26.412189 check[8039]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/aksabtech/.razor/razor-agent.log
+Jan 28 02:09:11.959290 check[8039]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/aksabtech/.razor/razor-agent.log

@@ -1,0 +1,31 @@
+; cPanel first:86.0.22 (update_time):1615884203 Cpanel::ZoneFile::VERSION:1.3 hostname:server.whiteebox.com latest:86.0.37
+; Zone file for aksabtech.com
+$TTL 14400
+aksabtech.com.	86400	IN	SOA	ns6866253104.a2dns.com.	modym8281.gmail.com.	(
+						2021031602 ;Serial Number
+						3600 ;refresh
+						1800 ;retry
+						1209600 ;expire
+						86400	)
+
+aksabtech.com.	86400	IN	NS	ns6866253104.a2dns.com.
+aksabtech.com.	86400	IN	NS	ns6866253111.a2dns.com.
+
+
+aksabtech.com.	14400	IN	A	68.66.253.104
+mail	14400	IN	A	68.66.253.104
+
+aksabtech.com.	14400	IN	MX	0	mail.aksabtech.com.
+
+www	14400	IN	CNAME	aksabtech.com.
+ftp	14400	IN	A	68.66.253.104
+aksabtech.com.	14400	IN	TXT	"v=spf1 +a +mx +ip4:68.66.253.104 ~all"
+cpcontacts	14400	IN	A	68.66.253.104
+whm	14400	IN	A	68.66.253.104
+webdisk	14400	IN	A	68.66.253.104
+webmail	14400	IN	A	68.66.253.104
+cpanel	14400	IN	A	68.66.253.104
+cpcalendars	14400	IN	A	68.66.253.104
+aksabtech.com.	14400	IN	TXT	"ياهلا والله"
+aksabtech.com.	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzuypqCSbed7aJdj6gWGmSjrYD3osRSRUnklw8yJSkTXlySkN3RGtdfyyndwH/B1fG2xZQX0C2AGru1mWwRednPP6WqCJrjsoKW2ws2nw6EKrI4525JcN9yCafGV/xM+bWTbtuuBNapISSLDvvkzCIPytGK0JtbNiELK7hXt8xdIO4Y236AnGVit0R99aIW+ps" GeObgU4uTu4xWunZkR4V39eM2gZdMCn3oRXUJc+TMjx29pfjaVVsGS94VfV63Ahpn3UAGH+KZo0oA0tD52KAmhPuEK8aH+ZLP3yDiLc9bbibw08L70r5sY6P/pgrQWRXARn7EsaYajvFHybQwJXLwIDAQAB\;
+

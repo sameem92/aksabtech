@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/aksabtech/public_html
+group: aksabtech
+hascgi: 1
+homedir: /home/aksabtech
+ip: 68.66.253.104
+ipv6: ~
+owner: whitee
+phpopenbasedirprotect: ~
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@aksabtech.com
+serveralias: mail.aksabtech.com www.aksabtech.com
+servername: aksabtech.com
+ssl: 1
+usecanonicalname: 'Off'
+user: aksabtech
+userdirprotect: -1
